@@ -16,3 +16,7 @@ if condition:
 else:
     expression
 ```
+
+* the words condition and Boolean expression can often be used interchangeably.
+
+
