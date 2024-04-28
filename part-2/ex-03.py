@@ -1,3 +1,5 @@
+# Typecasting
+
 number = float(input("Please type in a number: "))
 
 if number < 0:

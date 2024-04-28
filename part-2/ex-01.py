@@ -1,3 +1,5 @@
+## Fix the syntax
+
 number = int(input("Please type in a number: "))
 if number > 100:
     print("The number was greater than one hundred")
