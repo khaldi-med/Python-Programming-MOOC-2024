@@ -1,22 +1,27 @@
 # Alphabetically in the middle
 
-let1 = str(input("Enter a letter 1: "))
-let2 = str(input("Enter a letter 2: "))
-let3 = str(input("Enter a letter 3: "))
+gift = int(input("Value of gift: "))
+taxAmount = 0;
 
-if let1 > let2 and let1 > let3:
-  if let2 > let3:
-    print(f"The letter in the middle is {let2}")
-  else:
-    print(f"The letter in the middle is {let3}")
-elif let2 > let1 and let2 > let3:
-  if let1 > let3:
-    print(f"The letter in the middle is {let1}")
-  else:
-    print(f"The letter in the middle is {let3}")
-elif let3 > let1 and let3 > let2:
-  if let1 > let2:
-    print(f"The letter in the middle is {let1}")
-  else:
-    print(f"The letter in the middle is {let2}")
+if 5000 <= gift < 25000:
+    taxAmount = (100 + (gift - 5000) * 0.08)
+    print(f"Amount of tax: {taxAmount} euros")
 
+elif 25000 <= gift < 55000:
+    taxAmount = (1700 + (gift - 25000) * 0.10)
+    print(f"Amount of tax: {taxAmount} euros")
+
+elif 55000 <= gift < 200000:
+    taxAmount = (4700 + (gift - 55000) * 0.12)
+    print(f"Amount of tax: {taxAmount} euros")
+    
+elif 200000 <= gift < 1000000:
+    taxAmount = (22100 + (gift - 200000) * 0.15)
+    print(f"Amount of tax: {taxAmount} euros")
+
+elif gift >= 1000000:
+    taxAmount = (142100 + (gift - 1000000) * 0.17)
+    print(f"Amount of tax: {taxAmount} euros")
+
+else:
+    print("No tax!")
