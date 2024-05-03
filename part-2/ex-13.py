@@ -1,17 +1,22 @@
 # Alphabetically in the middle
 
-letr1 = str(input("1st letter: "))
-letr2 = str(input("2st letter: "))
-letr3 = str(input("3st letter: "))
+let1 = str(input("Enter a letter 1: "))
+let2 = str(input("Enter a letter 2: "))
+let3 = str(input("Enter a letter 3: "))
 
-if letr1 > letr2 and letr1 > letr3:
-    if letr2 > letr3:
-        print(f"The letter in the middle is {letr3}")
-elif letr2 > letr1 and letr2 > letr3:
-    if letr1 > letr3:
-        print(f"The letter in the middle is {letr1}")
-elif letr3 > letr1 and letr3 > letr2:
-    if letr1 > letr2:
-        print(f"The letter in the middle is {letr1}")
-else:
-    print(f"The letter in the middle is {letr2}")
+if let1 > let2 and let1 > let3:
+  if let2 > let3:
+    print(f"The letter in the middle is {let2}")
+  else:
+    print(f"The letter in the middle is {let3}")
+elif let2 > let1 and let2 > let3:
+  if let1 > let3:
+    print(f"The letter in the middle is {let1}")
+  else:
+    print(f"The letter in the middle is {let3}")
+elif let3 > let1 and let3 > let2:
+  if let1 > let2:
+    print(f"The letter in the middle is {let1}")
+  else:
+    print(f"The letter in the middle is {let2}")
+
