@@ -29,4 +29,30 @@ else:
 #### Combining conditions
 
 * The condition **x >= a and x <= b**, **x >= a or x <= b**, **not a**, **x >= a <= b**
-* 
+
+
+#### Simple loops
+
+* to use **sqrt** fun do this: **from math import sqrt**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
