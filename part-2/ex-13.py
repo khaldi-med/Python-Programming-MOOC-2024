@@ -1,4 +1,4 @@
-# Alphabetically in the middle
+# Gift tax calculator
 
 gift = int(input("Value of gift: "))
 taxAmount = 0;
