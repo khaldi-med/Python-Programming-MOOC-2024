@@ -11,14 +11,8 @@ while True:
                 if nextYear == 2:
                     print("The next leap year after {year} is {newLeap}")
                     break
-	else:
-	    year += 1
-    else:
-	year += 1
-    
-                
-              
-
+                else:
+                    year += 1
 
 
 
