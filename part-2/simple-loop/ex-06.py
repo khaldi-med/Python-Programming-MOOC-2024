@@ -1,21 +1,14 @@
 # The next leap year
 
 year = int(input("Please type in a year: "))
+first_input = year + 1
 
 while True:
-    if year % 4 == 0:
-        if year % 100 == 0:
-            if year % 400 == 0:
-                nextYear += 1
-                newLeap = year + 1
-                if nextYear == 2:
-                    print("The next leap year after {year} is {newLeap}")
-                    break
-                else:
-                    year += 1
+    if first_input % 100 == 0:
+        if first_input % 400 == 0:
+            break
+        elif first_input % 4 == 0:
+            break
+        first_input = first_input + 1
 
-
-
-
-
-
+                            print(f"The next leap year after {year} is {first_input}")

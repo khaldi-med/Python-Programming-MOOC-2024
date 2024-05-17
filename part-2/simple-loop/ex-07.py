@@ -1,4 +1,5 @@
-# Write your solution here
+# Story
+
 story = ""
 last_word = ""
 while True:
