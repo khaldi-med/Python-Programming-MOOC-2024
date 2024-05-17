@@ -1,4 +1,7 @@
-# Write your solution here
+# working_with_numbers
+
+print("Please type in integer numbers. Type in 0 to finish.")
+
 typed_num = 0
 sum_num = 0
 mean_num = 0
@@ -8,11 +11,11 @@ while True:
     num = int(input("Number: "))
 
         if num == 0:
-            print(f"Numbers typed in: {typed_num}")
-            print(f"The sum of the numbers is: {sum_num}")
-            print(f"The mean of the numbers is: {mean_num}")
-            print(f"Positive numbers: {positive_num}")
-            print(f"Negative numbers: {negative_num}")
+            print(f"Numbers typed in {typed_num}")
+            print(f"The sum of the numbers is {sum_num}")
+            print(f"The mean of the numbers is {mean_num}")
+            print(f"Positive numbers {positive_num}")
+            print(f"Negative numbers {negative_num}")
             break
         if num < 0:
             negative_num += 1
