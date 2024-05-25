@@ -1,4 +1,5 @@
-# Write your solution here
+# String multiplied
+
 user_input = input("Please type in a string: ")
 amount = int(input("Please type in an amount: "))
 
