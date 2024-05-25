@@ -1,5 +1,5 @@
 # A line of hashes
 
-user_input = int(input("Width: "))
+width = int(input("Width: "))
 
-print(user_input * "#")
+print(width * "#")
