@@ -1,4 +1,7 @@
+# End to beginning
+
 user_input = input("Please type in a string: ")
+
 index = -1
 
 while index > 0:
