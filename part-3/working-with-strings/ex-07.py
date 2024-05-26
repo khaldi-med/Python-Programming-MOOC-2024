@@ -1,10 +1,14 @@
 # Underlining
 
-string = input("Please type in a string: ")
 dash = "-"
-index = 0
-print(string)
+length = 0
 
-while index < len(string):
-    print(dash)
-    index += 1
+while True:
+    string = input("Please type in a string: ")
+    length = len(string)
+
+    if string == "":
+        break
+    print(string)
+    print(length * dash)
+
