@@ -1,3 +1,5 @@
+# Substrings, part 1
+
 word = input("Please type in a string: ")
 index = 0
 
