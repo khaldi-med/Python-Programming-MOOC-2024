@@ -1,4 +1,5 @@
-n = 10 # number of layers in the pyramid
+# number of layers in the pyramid
+n = 10
 row = "*"
 
 while n > 0:
