@@ -1,6 +1,5 @@
 # Chessboard
 
-
 def chessboard(n):
     row = 0
 
