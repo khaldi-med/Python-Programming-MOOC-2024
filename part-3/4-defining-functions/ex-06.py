@@ -1,13 +1,19 @@
 # Chessboard
 
+
 def chessboard(n):
-    count = 1
-    while n >= count:
-      if count % 2 == 0:
-        line = "10" * n
-     else:
-        line = "01" * n
-        count += 1
-    print(line[0:n])
+    row = 0
+
+    while row < n:
+        col = 0
+        while col < n:
+            if (row + col) % 2 == 0:
+                print("1", end="")
+            else:
+                print("0", end="")
+            col += 1
+        print()
+        row += 1
+
 
 chessboard(6)
